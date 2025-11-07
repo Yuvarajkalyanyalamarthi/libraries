@@ -1,4 +1,5 @@
 import pandas as pd
+
 file_path_alt = r"C:\Users\HP\Downloads\students_with_inter_marks_eamcet.csv"
 
 try:
@@ -11,3 +12,4 @@ except FileNotFoundError:
 except Exception as e:
     print(f"An error occurred: {e}")
     
+
